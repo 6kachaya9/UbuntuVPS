@@ -49,5 +49,4 @@ echo 'WantedBy=multi-user.target' >> qbittorrent-nox.service
 sudo systemctl start qbittorrent-nox
 sudo systemctl daemon-reload
 sudo systemctl enable qbittorrent-nox
-systemctl status qbittorrent-nox
 sudo ufw allow 8080
