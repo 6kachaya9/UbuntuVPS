@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 adduser kachaya
 usermod -aG sudo kachaya
