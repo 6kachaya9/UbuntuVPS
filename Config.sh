@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 
-sudo apt install gnome-session gnome-terminal
+sudo apt install gnome-session gnome-terminal -y
 
 adduser kachaya
 usermod -aG sudo kachaya
