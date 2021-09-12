@@ -2,10 +2,10 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 
-#adduser kachaya
-#usermod -aG sudo kachaya
+adduser kachaya
+usermod -aG sudo kachaya
 
-#sudo passwd -l root
+sudo passwd -l root
 
 sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
 
